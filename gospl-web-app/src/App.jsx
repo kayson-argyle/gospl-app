@@ -9,8 +9,7 @@ export default function App() {
     <BrowserRouter basename={"/gospl-app/"}>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="delete" element={<Delete />} />
+          <Route index element={<Delete />} />
         </Route>
       </Routes>
     </BrowserRouter>
