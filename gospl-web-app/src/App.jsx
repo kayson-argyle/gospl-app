@@ -6,7 +6,7 @@ import Delete from "./pages/delete";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={"/gospl-app/"}>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
